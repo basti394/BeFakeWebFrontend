@@ -33,7 +33,7 @@ fun AppleDownloadButton(
                 color = Color.Transparent,
                 shape = RoundedCornerShape(40f)
             )
-            .clip(RoundedCornerShape(15.dp))
+            .clip(RoundedCornerShape(12.dp))
             .background(Color.White)
             .clickable() {  }
             .height(45.dp)

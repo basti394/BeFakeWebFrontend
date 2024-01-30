@@ -11,7 +11,7 @@
 </body>
 <script>
     window.webPlatform = "Test"
-    window.navigator.userAgent
+    var userAgent = window.navigator.userAgent
     if (/android/i.test(userAgent)) {
         webPlatform = "android";
     } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
