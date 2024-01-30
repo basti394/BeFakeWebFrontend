@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Compose App</title>
+    <title>BeFake.</title>
     <script type="application/javascript" src="skiko.js"></script>
     <script type="application/javascript" src="composeApp.js"></script>
 </head>
 <body>
 <canvas id="ComposeTarget"></canvas>
 </body>
+<script>
+    window.webPlatform = "Test"
+    window.navigator.userAgent
+    if (/android/i.test(userAgent)) {
+        webPlatform = "android";
+    } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        webPlatform = "android";
+    } else {
+        webPlatform = "other";
+    }
+</script>
 </html>
