@@ -1,5 +1,3 @@
-# Website to Download [BeFake. App](https://github.com/basti394/BeFakeMultiplatform)
- 
-A simple Compose Multiplatform App.
+## Website to Download [BeFake. App](https://github.com/basti394/BeFakeMultiplatform)
 
 ![](screenshots/screenshot-befake-web.png)
